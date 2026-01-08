@@ -14,6 +14,8 @@ public class Canvas extends JComponent {
     public Canvas() 
     {
         setPreferredSize(new Dimension(1080, 720));
+        drawables = new ArrayList<>();
+        updatables = new ArrayList<>();
     }
 
     
